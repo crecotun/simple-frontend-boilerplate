@@ -1,0 +1,16 @@
+{
+  "name": "simple-frontend-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:crecotun/simple-frontend-boilerplate.git",
+  "author": "Alexei <crecotun@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-pug": "^0.3.1"
+  },
+  "scripts": {
+    "dev": "parcel src/templates/pages/index.pug",
+    "build": "parcel build src/templates/*.pug"
+  }
+}
